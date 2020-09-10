@@ -21,7 +21,7 @@ class ShardingApplicationTests {
     @Test
     public void testSelect() {
         System.out.println(("----- selectById method test ------"));
-        System.out.println(girlService.getById(1001));
+        System.out.println(girlService.getById(Long.valueOf(1001)));
     }
 
     @Test
